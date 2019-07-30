@@ -9,14 +9,17 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
+const Card = styled.div`
+  background-color: blue;
+`;
+
 const Container = styled.div`
   height: 100vh;
   width: 100%;
   background-color: pink;
-`;
-
-const Card = styled.div`
-  background-color: blue;
+  ${Card} {
+    background-color: red;
+  }
 `;
 
 const Button = styled.button`
